@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividad2">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="UAX"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#3F51B5"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/header"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/greetingDecimalLbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textSize="32dp" />
+
+        <TextView
+            android:id="@+id/binaryNumberLbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/decimalNumberTxt"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/binaryNumberTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/resultDecimalLbl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textSize="32dp" />
+
+        <Button
+            android:id="@+id/calcDecimalBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:backgroundTint="#3F51B5"
+            android:layout_marginTop="5dp"
+            android:text="@string/calculateTxt" />
+
+        <Button
+            android:id="@+id/returnDecimalBtn"
+            android:layout_width="match_parent"
+            app:backgroundTint="#3F51B5"
+            android:layout_height="wrap_content"
+            android:text="@string/returnTxt" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

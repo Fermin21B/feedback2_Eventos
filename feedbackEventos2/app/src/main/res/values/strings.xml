@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">feedbackEventos</string>
+    <string name="nameTxt">Ingrese su nombre</string>
+    <string name="welcomeTxt">Bienvenido </string>
+    <string name="hypoTxt">Hallar hipotenusa</string>
+    <string name="oppositeSideTxt">Cateto opuesto</string>
+    <string name="adjacentSideTxt">Cateto adyacente</string>
+    <string name="hypoResultTxt">La hipotenusa es :</string>
+    <string name="decimalTxt">Convertir a decimal</string>
+    <string name="binaryNumberTxt">Numero Binario:</string>
+    <string name="binaryTxt">Convertir a binario</string>
+    <string name="decimalNumberTxt">Numero Decimal:</string>
+    <string name="calculateTxt">Calcular</string>
+    <string name="resultTxt">Resultado :</string>
+    <string name="returnTxt">Volver</string>
+    <string name="exitTxt">Salir</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
